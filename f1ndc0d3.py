@@ -66,7 +66,7 @@ if (str(sys.argv[1]) == "-a" or str(sys.argv[1]) == "--all"):
 	all()
 
 
-if (str(sys.argv[1]) == "-p" or str(sys.argv[1]) =="--port"):
+if (str(sys.argv[1]) == "-c" or str(sys.argv[1]) =="--code"):
 	single()	
 
 
