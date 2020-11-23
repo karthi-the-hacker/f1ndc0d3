@@ -11,6 +11,12 @@ its pure python ❤️️
 4. cd f1ndc0d3/
 
 syntax:-
-single doamin                                                   python f1ndc0d3.py --all https://domain.com/
-list of domains                                                 cat list.txt | python f1ndc0d3.py -a
-list of domains with speed process and particular status code   cat list.txt | xargs -n1 -P100 python f1ndc0d3.py -c 200 
+
+single doamin  
+              python f1ndc0d3.py --all https://domain.com/
+              
+list of domains  
+              cat list.txt | python f1ndc0d3.py -a
+              
+list of domains with speed process and particular status code 
+              cat list.txt | xargs -n1 -P100 python f1ndc0d3.py -c 200 
