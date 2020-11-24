@@ -2,15 +2,12 @@ import requests
 import sys
 
 
-yellow ='\033[33m'
-cyan ='\033[36m'
-pyr = '\033[35m'
 
 def banner():
 	print (pyr)
 	print " .-----------------------------.           "
 	print " |  Hi Hackers                 |           "
-	print (" |  Tool   : "+ cyan + "f1nd0d3           "+pyr+   "|")
+	print ("|  Tool   : f1nd0d3           |")
 	print " |  Author : @karthi_the_hacker|           "
 	print " |           Jai Hind          |           "
 	print " '-----------------------------'           "
@@ -46,8 +43,8 @@ def single():
 
 def helpl():
 	banner()
-	print (cyan + "For single domain and all status code : " + yellow + "python f1nd0d3.py --all http://yourserver.com/ ")
-	print (cyan + "For multiple domain and particular single status code : " + yellow + "cat live-domain.txt | xargs -n1 -p50 python c3cilia.py 301 http://yourserver.com/  " + yellow)
+	print ("For single domain and all status code : python f1nd0d3.py --all http://yourserver.com/ ")
+	print ("For multiple domain and particular single status code : cat live-domain.txt | xargs -n1 -p50 python c3cilia.py 301 http://yourserver.com/  " )
 	
 
 
