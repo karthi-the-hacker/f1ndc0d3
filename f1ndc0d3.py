@@ -21,7 +21,7 @@ def banner():
 def all():
 	url = sys.argv[2]
 	try:
-		r = requests.get(url)
+		r = requests.get(url , allow_redirects=False)
 		code = r.status_code
 		print(pyr + url +  cyan +"   <---- [ {} ]".format(r.status_code) )
 		sys.exit()
