@@ -32,7 +32,7 @@ def single():
 	try:
 		url = sys.argv[3]
 		inl = sys.argv[2]
-		r = requests.get(url)
+		r = requests.get(url , allow_redirects=False)
 		if ( int(r.status_code) == int(inl)):
 			print(pyr + url +  cyan +"   <---- [ {} ]".format(r.status_code) )
 			sys.exit()
