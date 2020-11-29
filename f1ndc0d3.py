@@ -4,7 +4,7 @@ import sys
 
 
 def banner():
-	print (pyr)
+	
 	print " .-----------------------------.           "
 	print " |  Hi Hackers                 |           "
 	print ("|  Tool   : f1nd0d3           |")
@@ -23,7 +23,7 @@ def all():
 	try:
 		r = requests.get(url , allow_redirects=False)
 		code = r.status_code
-		print(pyr + url +  cyan +"   <---- [ {} ]".format(r.status_code) )
+		print(url + "   <---- [ {} ]".format(r.status_code) )
 		sys.exit()
 	except:
 		sys.exit()
@@ -34,7 +34,7 @@ def single():
 		inl = sys.argv[2]
 		r = requests.get(url , allow_redirects=False)
 		if ( int(r.status_code) == int(inl)):
-			print(pyr + url +  cyan +"   <---- [ {} ]".format(r.status_code) )
+			print( url +"   <---- [ {} ]".format(r.status_code) )
 			sys.exit()
 	
 	except:
@@ -44,7 +44,7 @@ def single():
 def helpl():
 	banner()
 	print ("For single domain and all status code : python f1nd0d3.py --all http://yourserver.com/ ")
-	print ("For multiple domain and particular single status code : cat live-domain.txt | xargs -n1 -p50 python c3cilia.py 301 http://yourserver.com/  " )
+	print ("For multiple domain and particular single status code : cat live-domain.txt | xargs -n1 -p50 python c3cilia.py 301   " )
 	
 
 
