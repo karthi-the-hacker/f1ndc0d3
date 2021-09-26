@@ -5,16 +5,16 @@ import sys
 
 def banner():
 	
-	print " .-----------------------------.           "
-	print " |  Hi Hackers                 |           "
+	print (" .-----------------------------.           ")
+	print (" |  Hi Hackers                 |           ")
 	print ("|  Tool   : f1nd0d3           |")
-	print " |  Author : @karthi_the_hacker|           "
-	print " |           Jai Hind          |           "
-	print " '-----------------------------'           "
-	print "                 ^      (\_/)    "
-	print "                 '----- (O.o)    "
-	print "                        (> <)    "
-	print " "
+	print (" |  Author : @karthi_the_hacker|           ")
+	print (" |           Jai Hind          |           ")
+	print (" '-----------------------------'           ")
+	print ("                 ^      (\_/)    ")
+	print ("                 '----- (O.o)    ")
+	print ("                        (> <)    ")
+	print (" ")
 
 
 
