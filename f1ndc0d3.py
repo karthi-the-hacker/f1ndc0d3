@@ -63,4 +63,3 @@ if (str(sys.argv[1]) == "-a" or str(sys.argv[1]) == "--all"):
 if (str(sys.argv[1]) == "-c" or str(sys.argv[1]) =="--code"):
 	single()	
 
-
