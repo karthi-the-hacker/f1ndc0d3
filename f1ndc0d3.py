@@ -1,7 +1,6 @@
 import requests
 import sys
 
-
 def banner():
 	
 	print (" .-----------------------------.           ")
