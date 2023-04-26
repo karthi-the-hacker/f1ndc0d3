@@ -40,14 +40,11 @@ def single():
 	except:
 		sys.exit()
 
-
 def helpl():
 	banner()
 	print ("For single domain and all status code : python f1nd0d3.py --all http://yourserver.com/ ")
 	print ("For multiple domain and particular single status code : cat live-domain.txt | xargs -n1 -p50 python c3cilia.py 301   " )
 	
-
-
 if (len(sys.argv)<=1):
 	banner()
 	print("You must provide a target. Use -h or --help for help.")
